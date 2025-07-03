@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <script src="script.js" defer></script>
+</head>
+
+
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+            <div class="navbar-nav m-auto py-0">
+                <h1 class="navbar-brand">Oluwadamilola Ayoade</h1>
+                <ul class="navbar-nav">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certificates">Certifications</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="container-fluid bg-primary d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
+                    <img class="img-fluid w-100 rounded-circle shadow-sm" src="img/me.JPG" alt="">
+                </div>
+                <div class="col-lg-7 text-center text-lg-left">
+                    <h3 class="text-white font-weight-normal mb-3">I'm</h3>
+                    <h1 class="display-3 text-uppercase text-primary mb-2" style="-webkit-text-stroke: 2px #ffffff;">Oluwadamilola Ayoade</h1>
+                    <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
+                    <div class="typed-text d-none">Web Designer, Web Developer, Front End Developer, Apps Designer, Apps Developer,Softwate developer</div>
+                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <section id="hero">
+    <h2>Hi, I'm [Your Name]</h2>
+    <p>Detail-oriented [Your Profession, e.g., Software Developer] passionate about building impactful digital solutions.</p>
+    <a href="#contact" class="cta">Hire Me</a>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a [current role / student status] with experience in [languages/technologies]. I am passionate about [your passions, e.g., cybersecurity, software development, cloud computing].
+    </p>
+    <p>
+      Currently pursuing [degree / certifications if any] and actively seeking opportunities to apply my skills to real-world challenges.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>Python, Java, C++</li>
+      <li>React, Node.js</li>
+      <li>SQL / NoSQL databases</li>
+      <li>Cloud Platforms: AWS, Google Cloud</li>
+      <li>Version Control: Git, GitHub</li>
+      <li>Soft Skills: teamwork, problem-solving, communication</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Project 1</h3>
+      <p>[Short project description here]</p>
+      <video controls width="320" height="240">
+        <source src="project1-demo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <a href="#">View on GitHub</a>
+    </div>
+    <div class="project">
+      <h3>Project 2</h3>
+      <p>[Short project description here]</p>
+      <video controls width="320" height="240">
+        <source src="project2-demo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <a href="#">View on GitHub</a>
+    </div>
+    <!-- add more projects as needed -->
+  </section>
+
+  <section id="certificates">
+    <h2>Certifications</h2>
+    <ul>
+      <li>AWS Certified Solutions Architect</li>
+      <li>Google Cloud Cybersecurity Certificate</li>
+      <li>Meta Front-End Developer (ongoing)</li>
+    </ul>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <a href="resume.pdf" download>Download My Resume</a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+  </section>
+
+  <footer>
+    <p>© Oluwadamilola Ayoade 2025. All rights reserved.</p>
+    <p>
+      <a href="https://www.linkedin.com/in/yourusername">LinkedIn</a> |
+      <a href="https://github.com/yourusername">GitHub</a>
+    </p>
+  </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>
